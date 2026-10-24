@@ -6,7 +6,7 @@
 /*   By: yaabed <yaabed@student.42amman.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:22:32 by yaabed            #+#    #+#             */
-/*   Updated: 2026/10/22 17:53:11 by yaabed           ###   ########.fr       */
+/*   Updated: 2026/10/24 13:47:13 by yaabed           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 int	add_number(t_list **stack, int number)
 {
 	t_list	*node;
-	int	*value;
+	int		*value;
 
 	if (!stack)
 		return (0);

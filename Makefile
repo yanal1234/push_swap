@@ -3,7 +3,7 @@ CC = cc
 CFLAGS = -Wall -Werror -Wextra -g
 
 # add files when u add function in them <3
-SRC = main.c parse.c stack_utils.c
+SRC = main.c parse.c stack_utils.c parse_number.c 
 OBJ = $(SRC:%.c=$(BIN)/%.o)
 LIBFT_DIR = libft
 LIBFT = $(LIBFT_DIR)/libft.a
